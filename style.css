@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #009688;
+}
+
+#movieForm {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.primary {
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+button.primary:hover {
+    background-color: #00796b;
+}
+
+button.danger {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 6px;
+    margin-left: 6px;
+}
+
+button.danger:hover {
+    background-color: #c0392b;
+}
+
+#watchedMoviesContainer {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+div.movie {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+span.movie-title {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+button.remove-button {
+    margin-left: 10px; /* Adjust the margin as needed */
+}
